@@ -1,0 +1,12 @@
+{
+    "simple_push": {
+        "name": "s1",
+        "description": "Push a data assuming:\nID, TIMESTAMP, BALANCE_BEFORE, BALANCE_AFTER, TYPE='buy', MODE='liquid', REGISTER='snack', BUDGET_LIMIT, PRIORITY='wants', IS_INTERNAL='no', ORIGIN='self', END='Market'\nREQUIRE: DESCRIPTION, AMOUNT, NOTE",
+        "description2": "Useful for Simple and Daily spending on snacks.",
+        "args_config": [
+            {"flags": ["description"], "type": "str"},
+            {"flags": ["amount"], "type": "int"},
+            {"flags": ["modify"], "type": "str"}
+        ]
+    }
+}

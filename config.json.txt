@@ -1,0 +1,6 @@
+{
+    "secret": {
+        "SUPABASE_URL": "UKN",
+        "SUPABASE_KEY": "UKN"
+    }
+}
